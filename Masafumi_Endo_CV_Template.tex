@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX CV
+% Date: 2020/02/23
+% Author: Masafumi Endo
+% This is a template file of curriculum vitae (CV) using LaTeX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{multicol}
+\usepackage{fixltx2e}
+\usepackage[letterpaper, total={7in, 9.5in}]{geometry}
+\usepackage{fancyhdr}\usepackage{lastpage}
+\pagestyle{fancy}
+
+\fancyhf{}
+\rfoot{Your Name, Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\renewcommand{\baselinestretch}{1.0}
+\renewcommand{\headrulewidth}{0.0pt}
+
+\renewcommand{\baselinestretch}{1.0}
+\begin{document}
+	\begin{center}
+		\textbf{\LARGE{Y}\large{OUR} \LARGE{N}\large{AME}}
+    \end{center}
+	\vspace{-4mm}
+	\begin{center}
+		\textbf{Address}: Your Street Name, City State Postal Code, Country
+	\end{center}
+	\vspace{-6mm}
+	\begin{multicols}{2}
+		\flushleft{\textbf{E-mail}: youremail@xxx.edu}
+		\flushright{\textbf{Website}: http://www.yourwebsite.com}
+	\end{multicols}
+
+%-------------------------------------------------------------------------------------
+% Education section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large E}\normalsize DUCATION}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+
+	\begin{flushleft}
+		\textbf{XXX University}, City Name, Country\\
+		\hspace{5pt}M.S. in XXXX Engineering, GPA: X.00/4.00\hspace{130pt}\textbf{Month. year -- Present}\\
+		\textbf{XXXX University}, City Name, Country\\
+		\hspace{5pt}B.S. in XXXX Engineering, GPA: X.00/4.00\hspace{103pt}\textbf{Month. year -- Month. year}\\
+	\end{flushleft}
+
+%-------------------------------------------------------------------------------------
+% Expertise/pertinent skills section
+% Following statements are examples of skills
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large E}\normalsize XPERTISE/{\Large P}ERTINENT {\Large S}KILLS}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+
+		\textbf{Programming}: C, C++, Python, Julia, MATLAB and Simulink\\
+		\textbf{Other Software}: SolidWorks, LaTeX, Microsoft Office\\
+		\textbf{Language}: English, Japanese (Native)\\
+
+%-------------------------------------------------------------------------------------
+% Research interest section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large R}\normalsize ESEARCH {\Large I}\normalsize NTERESTS}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+
+		\begin{flushleft}
+			You can express your research interests by listing or itemizing keywords.
+		\end{flushleft}
+	
+%-------------------------------------------------------------------------------------
+% Research experience section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large R}\normalsize ESEARCH {\Large E}\normalsize XPERIENCE}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+		\textbf{XXX Laboratory, XXX University, Country}
+		\vspace{-2mm}
+		\begin{itemize}\setlength{\leftskip}{-5mm}
+			\item[]Thesis: ``\textbf{Your Master Thesis Title}"
+			\vspace{-2mm}
+			\item[]Advisors: Dr. XXX XXXX and Dr. XXX XXXX\hspace{100pt}\textbf{Month. year -- Present}
+			\vspace{-2mm}
+			\begin{itemize}\setlength{\leftskip}{-5mm}
+				\item Briefly summarize what you have done so far.
+				\vspace{-2mm}
+				\item Same as above.
+			\end{itemize}
+			\vspace{-2mm}
+			\item[]\textbf{Your Project Name}
+			\vspace{-2mm}
+			\item[]Advisor: Dr. XXXX XXXXX\hspace{170pt}\textbf{Month. year -- Month. year}
+				\begin{itemize}\setlength{\leftskip}{-5mm}
+					\vspace{-3mm}
+					\item Same as above section.
+				\end{itemize}
+		\end{itemize}
+		\vspace{-2mm}
+		\textbf{XXX Laboratory, XXX University, Country}
+		\vspace{-2mm}
+		\begin{itemize}\setlength{\leftskip}{-5mm}
+			\item[]Thesis: ``\textbf{Your Bachelor Thesis Title}"
+			\vspace{-2mm}
+			\item[]Advisor: Dr. XXXX XXXX\hspace{180pt}\textbf{Month. year -- Month. year}
+			\vspace{-2mm}
+			\begin{itemize}\setlength{\leftskip}{-5mm}
+				\item Briefly summarize what you did during your bachelor program.
+				\vspace{-2mm}				
+			\end{itemize}
+		\end{itemize}
+	
+%-------------------------------------------------------------------------------------
+% Professional experience section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large P}\normalsize ROFESSIONAL {\Large E}\normalsize XPERIENCE}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+
+	\begin{flushleft}
+		\textbf{Project Name,}
+		\textbf{Company Name, Country}\hspace{100pt}\textbf{Month. year -- Month. year}
+	\end{flushleft}
+	\vspace{-8mm}
+	\begin{itemize}\setlength{\leftskip}{-5mm}
+		\item[] \textit{\textbf{Engineering Intern}}
+		\vspace{-3mm}
+		\begin{itemize}
+			\setlength{\leftskip}{-5mm}
+			\setlength{\itemsep}{-1mm}
+			\item Briefly summarize what you did during internships/other projects.
+			\end{itemize}
+	\end{itemize}
+%-------------------------------------------------------------------------------------
+% Publications section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large P}\normalsize UBLICATIONS}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+	\begin{flushleft}
+		\textbf{Journal}
+	\end{flushleft}
+	\vspace{-8mm}
+	\begin{itemize}
+		\setlength{\leftskip}{-5mm}
+		\setlength{\itemsep}{-1mm}
+		\item \textbf{Your Name}, XXX XXX, XXX XXX, and XXX XXX, ``Journal Title," \textit{Publisher}, year.
+	\end{itemize}
+	\vspace{-8mm}
+	\begin{flushleft}
+		\textbf{Conference}
+	\end{flushleft}
+	\vspace{-8mm}
+	\begin{itemize}
+		\setlength{\leftskip}{-5mm}
+		\setlength{\itemsep}{-1mm}
+		\item \textbf{Your Name}, XXX XXX, and XXX XXX, ``Title of Conference Paper," \textit{Conference Name}, City, Country, year.
+	\end{itemize}
+
+%-------------------------------------------------------------------------------------
+% Reference section
+%-------------------------------------------------------------------------------------
+	\vspace{-4mm}
+	\section*{\textbf{\Large R}\normalsize EFERENCE}
+	\vspace{-2mm}
+	\hrule width \hsize \kern 1mm \hrule width \hsize height 2pt
+	\vspace{2mm}
+	\begin{flushleft}
+        \textbf{Dr. XXX XXXX}\\
+		\hspace{5pt}Professor\\
+		\hspace{5pt}School of XXX Engineering, XXX University\\
+		\hspace{5pt}Institution Address, City, Postal Code, Country\\
+		\hspace{5pt}Email: professors.address@xxx.edu\\
+
+        \textbf{Dr. XXX XXXX}\\
+		\hspace{5pt}Associate Professor\\
+		\hspace{5pt}School of XXX Engineering, XXX University\\
+		\hspace{5pt}Institution Address, City, Postal Code, Country\\
+		\hspace{5pt}Email: professors.address@xxx.edu\\
+
+        \textbf{Dr. XXX XXXX}\\
+		\hspace{5pt}Professor\\
+		\hspace{5pt}School of XXX Engineering, XXX University\\
+		\hspace{5pt}Institution Address, City, Postal Code, Country\\
+		\hspace{5pt}Email: professors.address@xxx.edu\\
+
+
+	\end{flushleft}
+
+\end{document}
